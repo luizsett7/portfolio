@@ -430,6 +430,7 @@ a a:active {
   height: 380px;
   -o-object-fit: cover;
   object-fit: cover;
+  object-position: right;
   margin-top: 10px;
   position: relative;
   top: 30px; }
