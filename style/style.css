@@ -438,7 +438,6 @@ a a:active {
 @media screen and (max-width: 990px) {
   .personal-profile .personal-profile__avatar {
     display: none; } }
-
 .personal-profile .personal-profile__name {
   font-size: 44px;
   line-height: 50px;
@@ -487,7 +486,6 @@ a a:active {
 @media screen and (max-width: 990px) {
   .main-header {
     margin-bottom: 0; } }
-
 .contact-list {
   font-size: 16px;
   line-height: 24px;
@@ -530,7 +528,6 @@ a a:active {
   .section {
     padding-top: 50px;
     padding-bottom: 50px; } }
-
 .site-btn {
   background-color: #6d56c1;
   height: 50px;
@@ -628,9 +625,9 @@ a a:active {
 @media screen and (max-width: 576px) {
   .portfolio-menu a {
     padding-right: 15px; }
+
   .portfolio-menu a:after {
     right: 8px; } }
-
 .project-card {
   margin-left: 0;
   margin-bottom: 40px;
@@ -887,7 +884,6 @@ nav ul li a:hover:after {
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
-
 @media (min-width: 576px) {
   .navbar-expand-sm {
     -ms-flex-wrap: nowrap;
@@ -895,37 +891,42 @@ nav ul li a:hover:after {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start; }
+
   .navbar-expand-sm,
   .navbar-expand-sm .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row; }
+
   .navbar-expand-sm .navbar-nav .dropdown-menu {
     position: absolute; }
+
   .navbar-expand-sm .navbar-nav .dropdown-menu-right {
     right: 0;
     left: auto; }
+
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem; }
+
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap; }
+
   .navbar-expand-sm .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important; }
+
   .navbar-expand-sm .navbar-toggler {
     display: none; } }
-
 @media (max-width: 767px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
-
 @media (min-width: 768px) {
   .navbar-expand-md {
     -ms-flex-wrap: nowrap;
@@ -933,37 +934,42 @@ nav ul li a:hover:after {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start; }
+
   .navbar-expand-md,
   .navbar-expand-md .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row; }
+
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute; }
+
   .navbar-expand-md .navbar-nav .dropdown-menu-right {
     right: 0;
     left: auto; }
+
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem; }
+
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap; }
+
   .navbar-expand-md .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important; }
+
   .navbar-expand-md .navbar-toggler {
     display: none; } }
-
 @media (max-width: 991px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
-
 @media (min-width: 992px) {
   .navbar-expand-lg {
     -ms-flex-wrap: nowrap;
@@ -971,37 +977,42 @@ nav ul li a:hover:after {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start; }
+
   .navbar-expand-lg,
   .navbar-expand-lg .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row; }
+
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute; }
+
   .navbar-expand-lg .navbar-nav .dropdown-menu-right {
     right: 0;
     left: auto; }
+
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem; }
+
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap; }
+
   .navbar-expand-lg .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important; }
+
   .navbar-expand-lg .navbar-toggler {
     display: none; } }
-
 @media (max-width: 1199px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
-
 @media (min-width: 1200px) {
   .navbar-expand-xl {
     -ms-flex-wrap: nowrap;
@@ -1009,31 +1020,37 @@ nav ul li a:hover:after {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start; }
+
   .navbar-expand-xl,
   .navbar-expand-xl .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row; }
+
   .navbar-expand-xl .navbar-nav .dropdown-menu {
     position: absolute; }
+
   .navbar-expand-xl .navbar-nav .dropdown-menu-right {
     right: 0;
     left: auto; }
+
   .navbar-expand-xl .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem; }
+
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap; }
+
   .navbar-expand-xl .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important; }
+
   .navbar-expand-xl .navbar-toggler {
     display: none; } }
-
 .navbar-expand {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -1146,9 +1163,9 @@ nav ul li a:hover:after {
   .col-lg-5 {
     flex: 0 0 auto;
     width: 60% !important; }
+
   .col-lg-7 {
     width: 40% !important; } }
-
 .background {
   background: linear-gradient(54deg, rgba(74, 76, 179, 0.95) 34%, rgba(206, 156, 156, 0.95));
   height: 100%;
@@ -1318,7 +1335,6 @@ textarea[data-touched="true"]:invalid
 @media screen and (max-width: 760px) {
   .contacts .contacts__form {
     margin-top: 20px; } }
-
 .contacts .contacts__form-title {
   margin-bottom: 20px; }
 
@@ -1338,3 +1354,5 @@ textarea[data-touched="true"]:invalid
   top: 60px;
   position: relative;
   margin-bottom: 30px; }
+
+/*# sourceMappingURL=style.css.map */
