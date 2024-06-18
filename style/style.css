@@ -465,15 +465,13 @@ a a:active {
 .personal-profile .personal-profile__social a:hover {
   opacity: 1; }
 
-.muffato-projects-list{
+.muffato-projects-list {
   list-style: disc;
-  padding: 10px 0 0 20px;
-  margin-bottom: 0;
-}
+  padding-left: 20px;
+  margin-bottom: 0; }
 
 .project-tags {
-  margin-top: 10px !important;
-}
+  margin-top: 10px !important; }
 
 .main-header {
   background-color: #6d56c1;
@@ -648,12 +646,10 @@ a a:active {
   padding-right: 0;
   padding-left: 0; }
 
-  @media screen and (max-width: 991px){
-    .project-card .project-card__img {
-      padding-right: 10px;
-      padding-left: 10px; }
-  }
-
+@media screen and (max-width: 991px) {
+  .project-card .project-card__img {
+    padding-right: 10px;
+    padding-left: 10px; } }
 .project-card .project-card__img img {
   width: 100%;
   height: 100%;
