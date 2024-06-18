@@ -468,10 +468,10 @@ a a:active {
 .personal-profile .personal-profile__social a:hover {
   opacity: 1;
 }
-.muffato-projects-list{
+.muffato-projects-list {
   list-style: disc;
   padding-left: 20px;
-  margin-bottom: 0;
+  margin: 10px 0 0 0; 
 }
 .project-tags {
   margin-top: 10px !important;
