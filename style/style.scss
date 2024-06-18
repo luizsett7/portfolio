@@ -468,6 +468,14 @@ a a:active {
 .personal-profile .personal-profile__social a:hover {
   opacity: 1;
 }
+.muffato-projects-list{
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+.project-tags {
+  margin-top: 10px !important;
+}
 .main-header {
   background-color: #6d56c1;
   height: 100%;
@@ -652,6 +660,11 @@ a a:active {
 .project-card .project-card__img {
   padding-right: 0;
   padding-left: 0;
+}
+@media screen and (max-width: 991px){
+  .project-card .project-card__img {
+    padding-right: 10px;
+    padding-left: 10px; }
 }
 .project-card .project-card__img img {
   width: 100%;
