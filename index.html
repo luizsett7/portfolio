@@ -20,7 +20,8 @@
                     <nav class="">
                     <ul>
                         <li><a href="#hello">About</a></li>
-                        <li><a href="#resume">Resume</a></li>                        
+                        <li><a href="#resume">Resume</a></li>    
+                        <li><a href="#portfolio">Portfolio</a></li>                    
                     </ul>
                     </nav>
                 </div>
@@ -42,7 +43,8 @@
             <nav class="mobile-menu__wrapper">
             <ul>
                 <li><a href="#hello">Hello</a></li>
-                <li><a href="#resume">Resume</a></li>      
+                <li><a href="#resume">Resume</a></li>  
+                <li><a href="#portfolio">Portfolio</a></li>    
             </ul>
             </nav>
         </div>
@@ -78,8 +80,7 @@
           <div class="col-md-10">
             <h2 id="hello_header" class="section__title" style="text-indent: 0px;">Hi_</h2>
             <p class="section__description">
-                I love what I do. I'm a dedicated developer, focused on productivity and attentive to quality. I like new technologies. Always available to learn and teach.
-                I've been working as a fullstack developer for almost six years. Acting on projects such as websites, web systems, mobile applications. 
+              I am a resilient developer with a lot of willpower. Adept of new technologies and always available to learn and teach. I've been working as a fullstack developer for almost six years. Acting on projects such as websites, web systems and mobile applications.
             </p>
             <a href="https://drive.google.com/file/d/1f4pu7W9HeK-AfCzuF4R5nOrHDRtnqV7V/view?usp=sharing" target="_blank" class="section_btn site-btn"><img src="assets/img/img_btn_icon.png" alt="">Download Resume</a>
           </div>
@@ -104,40 +105,56 @@
               <p class="resume-list__block-date"></p>
               <ul class="education-list">
                 <li>Postgraduate in JAVA</li>
+              </ul>
+            </div>  
+            <div class="resume-list__block">
+              <p class="resume-list__block-title">Federal Institute of Paraná</p>
+              <p class="resume-list__block-date"></p>
+              <ul class="education-list">
                 <li>Systems Analysis</li>
               </ul>
-            </div>                               
+            </div>                                
           </div>
         </div>
         <div class="row">
           <div class="col-md-8 section__resume resume-list">
             <h3 class="resume-list_title">employment</h3>
             <div class="resume-list__block">
-              <p class="resume-list__block-title">Pedro Muffato - Wholesale Group</p>
+              <p class="resume-list__block-title">Fullstack Developer | Pedro Muffato - Wholesale Group</p>
               <p class="resume-list__block-date">4 years</p>
               <p>
-                The moment I joined the company I took on responsability for a legacy system. The sales director showed me which ideas he'd like to be developed.<br>
-                I've created some importants projects and ministered training to new team members.<br>
+                I’ve worked on many projects<br>
                 <ul class="muffato-projects-list">
-                  <li>The Web credit module that was previously only used in ERP Protheus (Totvs).</li>
+                  <li>Maintenance of legacy analytical management portal.</li>
+                  <li>The portal update - version 2.0 - Laravel.</li>
+                  <li>Ministered training to new team members.</li>
+                  <li>The web credit module, which was previously only used in ERP Protheus (Totvs).</li>
                   <li>The interactive sales index map.</li>
                   <li>The hiring guide.</li>
                   <li>A market benefit club.</li>
-                  <li>The institutional website.</li>                 
+                  <li>The institutional websites.</li> 
+                  <li>and more other projects.</li>                
                 </ul>                                
               </p>
-              <p class="project-tags"><b>tags: </b>PHP, Laravel, Protheus (Totvs), Oracle, MySQL, HTML, CSS, JS, Jquery, Bootstrap.</p>
+              <p class="project-tags"><b>tags: </b>PHP, Laravel, Javascript, Protheus (Totvs), Oracle, MySQL, HTML5, CSS3, Jquery, Bootstrap.</p>
             </div>
             <div class="resume-list__block">
-              <p class="resume-list__block-title">TR1 - Digital Agency</p>
+              <p class="resume-list__block-title">Fullstack Developer | TR1 - Digital Agency</p>
               <p class="resume-list__block-date">2 years</p>
               <p>
-                I created a web ticket system for Rotary, I also developed several websites and online stores.               
+                I created a web ticket system for Rotary Club, I also developed several websites and online stores.               
               </p>
-              <p class="project-tags"><b>tags: </b>PHP, Opencart, Magento, MySQL, HTML, CSS, JS, Jquery, Bootstrap.</p>
-            </div>                        
+              <p class="project-tags"><b>tags: </b>PHP, Javascript, Opencart, Magento, MySQL, HTML, CSS, Jquery, Bootstrap.</p>
+            </div>  
             <div class="resume-list__block">
-              <p class="resume-list__block-title">Macuco Safari</p>
+              <p class="resume-list__block-title">Freelancer</p>
+              <p class="resume-list__block-date">5 years</p>
+              <p>
+                Creation of Google, Facebook and Instagram campaigns; Video and image editing.
+              </p>
+            </div>                       
+            <div class="resume-list__block">
+              <p class="resume-list__block-title">Trilingual Seller | Macuco Safari</p>
               <p class="resume-list__block-date">1 year</p>
               <p>
                 Sale of tourist attraction at the Iguazu Falls.
@@ -146,7 +163,36 @@
           </div>
         </div>
       </section>
-      <!-- resume -->      
+      <!-- resume --> 
+       <!-- portfolio -->
+      <section id="portfolio" class="container section">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 id="portfolio_header" class="section__title" style="text-indent: 0px;">My projects_</h2>
+          </div>
+        </div>        
+        <div class="portfolio-cards">
+          <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites" style="display: flex;">
+            <div class="col-md-6 col-lg-5 project-card__img">
+              <img class="" src="https://github.com/luizsett7/todo-react-firebase/blob/main/react_and_firebase_todo_list.png?raw=true" alt="project-img">
+            </div>
+            <div class="col-md-6 col-lg-7 project-card__info">
+              <h3 class="project-card__title">Todo List - React and Firebase</h3>
+              <p class="project-card__description">
+                System developed to control a todo list.
+              </p>
+              <p class="project-card__stack">Used stack:</p>
+              <ul class="tags">
+                <li>React</li>
+                <li>Firebase</li>
+                <li>HTML5</li>
+                <li>CSS3</li>                               
+              </ul>             
+            </div>
+          </div>                       
+        </div>       
+      </section>
+      <!-- portfolio -->     
       <!-- contact -->
       <div class="background">
         <div id="contact" class="container section">
